@@ -1,6 +1,12 @@
 import cv2
 
+important methods:
+
 image = cv2.imread("filename.jpg")
+
+cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+cv2.bitwise_not(image)
+
 cv2.imshow("this is processed image", image)
 cv2.waitkey(0)
 cv2.destroyAllWindows()
