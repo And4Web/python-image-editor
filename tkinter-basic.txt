@@ -1,8 +1,17 @@
-from tkinter import ttk, Tk, PhotoImage
+from tkinter import ttk, Tk, PhotoImage, Canvas, filedialog
 
 important methods:
+
 Tk()
 mainloop()
+
 ttk.Label().pack()
 ttk.Button().pack()
+
 PhotoImage().subsample()
+
+Canvas(root, bg, width, height).pack()
+Canvas.create_image(width/2, height/2, image)
+
+filedialog.askopenfilename()
+filedialog.asksaveasfilename()

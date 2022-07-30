@@ -1,0 +1,6 @@
+import cv2
+
+image = cv2.imread("filename.jpg")
+cv2.imshow("this is processed image", image)
+cv2.waitkey(0)
+cv2.destroyAllWindows()
