@@ -1,0 +1,8 @@
+from tkinter import ttk, Tk, PhotoImage
+
+important methods:
+Tk()
+mainloop()
+ttk.Label().pack()
+ttk.Button().pack()
+PhotoImage().subsample()
